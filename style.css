@@ -9,8 +9,15 @@
   
 }
 
-
-@media(max-width:700px){
-
+@media(max-width:500px){
+input[type=text], select {
+    width: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 4px;
+    box-sizing: border-box;
+ 
+  }
 }
-
